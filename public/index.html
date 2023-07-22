@@ -1,17 +1,72 @@
 <!DOCTYPE html>
-<html lang="">
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <link
+      rel="alternate"
+      media="handheld"
+      href="https://m.usps.com/m/TrackConfirmAction"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://www.usps.com/assets/images/home/favicon.ico"
+    />
+    <link
+      rel="alternate"
+      media="only screen and (max-width: 640px)"
+      href="https://m.usps.com/m/TrackConfirmAction"
+    />
+    <!-- End Mobile  reference For Webcrawlers -->
+    <title>USPS.com&reg; - USPS Tracking&reg;</title>
+    <link rel="stylesheet" href="https://tools.usps.com/go/css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://tools.usps.com/go/css/libs/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://tools.usps.com/go/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://tools.usps.com/go/styles/ConditionalChatLink.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="https://tools.usps.com/go/css/tracking-cross-sell.css"
+    />
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://tools.usps.com/global-elements/header/css/megamenu-v4.css"
+      type="text/css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
     <div id="app"></div>
+
+    <script src="https://tools.usps.com/global-elements/lib/script/requirejs/require.js"></script>
+    <script src="https://tools.usps.com/global-elements/header/script/header-init-search.js"></script>
+    <script src="https://www.usps.com/assets/script/home/megamenu-additions.js"></script>
+    <script src="https://tools.usps.com/go/scripts/libs/jquery.min.js"></script>
+    <script src="https://tools.usps.com/go/js/modules/usps/metrics/metrics-all.js"></script>
+    <script src="https://tools.usps.com/go/scripts/libs/jquery.min.js"></script>
+    <script src="https://tools.usps.com/go/scripts/libs/jquery.ui.js"></script>
+    <script src="https://tools.usps.com/go/scripts/libs/bootstrap.min.js"></script>
+    <script src="https://tools.usps.com/go/scripts/libs/jquery.keyboard-focus.js"></script>
+    <script src="https://tools.usps.com/go/scripts/libs/validator.min.js"></script>
+    <!-- Data -->
+    <script src="https://tools.usps.com/go/data/data.js"></script>
+
+    <!-- App scripts -->
+    <script src="https://tools.usps.com/go/scripts/landing.js"></script>
+
     <!-- built files will be auto injected -->
   </body>
 </html>

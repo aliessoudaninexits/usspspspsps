@@ -1,8 +1,18 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from "vue";
+import App from "./App.vue";
 
-Vue.config.productionTip = false
+import router from "./router.js";
+
+import Vuesax from "vuesax";
+import "vuesax/dist/vuesax.css";
+
+import "material-icons/iconfont/material-icons.css";
+
+Vue.config.productionTip = false;
+Vue.use(Vuesax);
+
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  router,
+  render: (h) => h(App),
+}).$mount("#app");
